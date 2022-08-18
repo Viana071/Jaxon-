@@ -19,8 +19,8 @@ path.scale=1.2;
 
 //Criando menino que corre 
 boy=createSprite (200, 200, 50, 50);
-boy.addAnimation(boyImg);
-boy.scale=0.5;
+boy.addAnimation("running", boyImg);
+boy.scale=0.05;
 
 
 // Criando Boundary (Limite) esquerdo  
